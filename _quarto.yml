@@ -3,12 +3,12 @@ project:
   output-dir: docs
 
 website:
-  title: "Francoisdt14.github.io"
+  title: "3-PG User Guide"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - 3PG-UserGuide.qmd
 
 format:
   html:

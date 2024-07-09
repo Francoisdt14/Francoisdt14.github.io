@@ -1,5 +1,5 @@
 ---
-title: "Francoisdt14.github.io"
+title: "3-PG User Guide"
 ---
 
 This is a Quarto website.
