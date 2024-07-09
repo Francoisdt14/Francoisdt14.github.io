@@ -11,13 +11,34 @@
     "href": "index.html",
     "title": "3-PG User Guide",
     "section": "",
-    "text": "Welcome!\nHere is the landing page for the 3-PG User Guide.\nThis website will include the following sections:\n# 1. 3-PG Background ## 1.1 What is 3-PG ## 1.2 How does 3-PG Work? ## 1.3 What can we do with it?\n\n2. Input Datasets\n\n\n3. C++ .exe Usage"
+    "text": "Welcome!\nHere is the landing page for the 3-PG User Guide.\nThis website will include the following sections:\n# 1. 3-PG Background"
+  },
+  {
+    "objectID": "index.html#what-is-3-pg",
+    "href": "index.html#what-is-3-pg",
+    "title": "3-PG User Guide",
+    "section": "1.1 What is 3-PG",
+    "text": "1.1 What is 3-PG"
+  },
+  {
+    "objectID": "index.html#how-does-3-pg-work",
+    "href": "index.html#how-does-3-pg-work",
+    "title": "3-PG User Guide",
+    "section": "1.2 How does 3-PG Work?",
+    "text": "1.2 How does 3-PG Work?"
+  },
+  {
+    "objectID": "index.html#what-can-we-do-with-it",
+    "href": "index.html#what-can-we-do-with-it",
+    "title": "3-PG User Guide",
+    "section": "1.3 What can we do with it?",
+    "text": "1.3 What can we do with it?"
   },
   {
     "objectID": "Section_1.html",
     "href": "Section_1.html",
     "title": "3-PG Background",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "1.1 What is 3-PG?\n\n\n1.2 How does 3-PG Work?\n\n\n1.3 What can we do with it?"
   }
 ]
