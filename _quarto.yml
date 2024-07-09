@@ -8,7 +8,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - 3PG-UserGuide.qmd
+      - Section_1.qmd
+      - Section_2.qmd
 
 format:
   html:
