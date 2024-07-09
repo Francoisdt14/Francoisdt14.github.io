@@ -2,8 +2,6 @@
 title: "3-PG Background"
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+# 1.1 What is 3-PG?
+# 1.2 How does 3-PG Work?
+# 1.3 What can we do with it?
