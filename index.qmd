@@ -3,7 +3,7 @@ title: "3-PG User Guide"
 image: media/3PG_Logo.png
 toc: false
 about: 
-  template: trestles
+  template: solana
   image-shape: rectangle
   image-width: 20em
   #links:

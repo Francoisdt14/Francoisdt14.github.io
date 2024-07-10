@@ -11,6 +11,9 @@ website:
       - Section_1.qmd
       - Section_2.qmd
       - Section_3.qmd
+  page-footer:
+    left: <img src="media/IRSS_logo_colour.png" alt="Logo" style="height:50px;">
+    right: <img src="media/BP_logo.png" alt="Logo" style="height:50px;">
 
 format:
   html:
