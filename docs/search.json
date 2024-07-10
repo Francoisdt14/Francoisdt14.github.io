@@ -1,51 +1,23 @@
 [
   {
-    "objectID": "Section_3.html",
-    "href": "Section_3.html",
-    "title": "The C++ Executable",
+    "objectID": "Section_2.html",
+    "href": "Section_2.html",
+    "title": "Projects",
     "section": "",
-    "text": "Step-by-step user guide for forest simulation with the C++ executable\nSystem requirements?\nInstallation process?"
-  },
-  {
-    "objectID": "Section_1.html",
-    "href": "Section_1.html",
-    "title": "3-PG Background",
-    "section": "",
-    "text": "3-PG (Physiological Principles Predicting Growth) is a process-based model designed to simulate forest growth and productivity. Developed by Landsberg and Waring in 1997, it represents a significant advancement in forest modeling by bridging the gap between conventional empirical models and complex process-based models. 3-PG is a generic stand model that runs on a monthly time step using climate data, and can be parameterized for individual species. 3-PG consists of five submodules: assimilation of carbohydrates, the distribution of biomass between foliage, roots and stems, the determination of stem number, soil water balance, and conversion of biomass into variables of interest to forest managers.\nKey features of 3-PG include:\n\nSimplicity: 3-PG uses a small number of parameters that are readily available or easily estimated.\nMonthly time-step: Allows for detailed analysis of seasonal variations in growth.\nGenerality: Can be applied to a wide range of forest types and management regimes.\nPhysiological basis: Incorporates key physiological processes governing tree growth."
-  },
-  {
-    "objectID": "Section_1.html#what-is-3-pg",
-    "href": "Section_1.html#what-is-3-pg",
-    "title": "3-PG Background",
-    "section": "",
-    "text": "3-PG (Physiological Principles Predicting Growth) is a process-based model designed to simulate forest growth and productivity. Developed by Landsberg and Waring in 1997, it represents a significant advancement in forest modeling by bridging the gap between conventional empirical models and complex process-based models. 3-PG is a generic stand model that runs on a monthly time step using climate data, and can be parameterized for individual species. 3-PG consists of five submodules: assimilation of carbohydrates, the distribution of biomass between foliage, roots and stems, the determination of stem number, soil water balance, and conversion of biomass into variables of interest to forest managers.\nKey features of 3-PG include:\n\nSimplicity: 3-PG uses a small number of parameters that are readily available or easily estimated.\nMonthly time-step: Allows for detailed analysis of seasonal variations in growth.\nGenerality: Can be applied to a wide range of forest types and management regimes.\nPhysiological basis: Incorporates key physiological processes governing tree growth."
-  },
-  {
-    "objectID": "Section_1.html#how-does-3-pg-work",
-    "href": "Section_1.html#how-does-3-pg-work",
-    "title": "3-PG Background",
-    "section": "How does 3-PG Work?",
-    "text": "How does 3-PG Work?\n3-PG consists of five submodules: biomass production, biomass allocation, stem mortality, soil water balance, and stand management. Together, these submodules dictate how much stand can grow over a given period of time.\n\nPhotosynthetically active radiation (APAR) absorbed by the canopy is determined from total solar radiation, and canopy LAI. Environmental modifiers, based on atmospheric vapour pressure deficit, available soil water, mean air temperature, frost days per month, site nutrition, and stand age are then taken into account, limiting the total gross primary production that can occur. Net primary production (NPP) is a constant fraction of GPP (47%).\nAllocation of NPP (biomass) to stems and foliage varies by growing conditions, and depends on average tree size; allocation to foliage declines and that to stems increases as stands age. Allocation of NPP to roots depends on growing conditions (expressed by available soil water, vapour pressure deficit, and site nutrition). The proportion of NPP allocated to roots increases when nutritional status and/or available soil water are low.\nAn upper limit of stem number is calculated based on the single-tree stem mass of a current stem population. If the current stem mass is greater than the upper limit, the stem population is reduced to a level consistent with this limit.\nFinally, stand characteristics that are of interest to scientists and forests managers such as biomass, stem volume, basal area, and mean stem diameter can be calculated for the entire duration of stand growth."
-  },
-  {
-    "objectID": "Section_1.html#what-can-we-do-with-it",
-    "href": "Section_1.html#what-can-we-do-with-it",
-    "title": "3-PG Background",
-    "section": "What can we do with it?",
-    "text": "What can we do with it?\n3-PG has a wide range of applications in forestry and environmental science. 3-PG can be used to:"
+    "text": "PhD Project\nPostdoc"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "3-PG User Guide",
+    "title": "Francois du Toit",
     "section": "",
-    "text": "Welcome!\nHere is the landing page for the 3-PG User Guide.\nThis website includes the following sections:\n\nBackground\n\nWhat is 3-PG?\nHow does 3-PG Work?\nWhat can we do with it?\n\n\n\nInput Datasets\n\nWhat do we need for 3-PG to work\n\n\n\nThe C++ Executable\n\nA step-by-step guide\n\n\n\nCase Studies\n\n\nOther Implementations of 3-PG\n\n\nAdditional Resources"
+    "text": "Landing site\n\n\nPhD\nMGEM\nBSc\n\n\n\nPostdoctoral Research Fellow"
   },
   {
-    "objectID": "Section_2.html",
-    "href": "Section_2.html",
-    "title": "Input Datasets",
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Francois du Toit",
     "section": "",
-    "text": "3-PG requires climatic data, data describing the physical properties of the site, and a species specific parameter file.\n\nClimate Data\n\n\nSite Characteristics\n\n\nSpecies Parameters\nAbout this site\n\n1 + 1\n\n[1] 2"
+    "text": "Landing site\n\n\nPhD\nMGEM\nBSc\n\n\n\nPostdoctoral Research Fellow"
   }
 ]
