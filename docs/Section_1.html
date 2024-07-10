@@ -100,6 +100,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./Section_2.html"> 
 <span class="menu-text">Input Datasets</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Section_3.html"> 
+<span class="menu-text">The C++ Executable</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -116,9 +120,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-is-3-pg" id="toc-what-is-3-pg" class="nav-link active" data-scroll-target="#what-is-3-pg">1.1 What is 3-PG?</a></li>
-  <li><a href="#how-does-3-pg-work" id="toc-how-does-3-pg-work" class="nav-link" data-scroll-target="#how-does-3-pg-work">1.2 How does 3-PG Work?</a></li>
-  <li><a href="#what-can-we-do-with-it" id="toc-what-can-we-do-with-it" class="nav-link" data-scroll-target="#what-can-we-do-with-it">1.3 What can we do with it?</a></li>
+  <li><a href="#what-is-3-pg" id="toc-what-is-3-pg" class="nav-link active" data-scroll-target="#what-is-3-pg">What is 3-PG?</a></li>
+  <li><a href="#how-does-3-pg-work" id="toc-how-does-3-pg-work" class="nav-link" data-scroll-target="#how-does-3-pg-work">How does 3-PG Work?</a></li>
+  <li><a href="#what-can-we-do-with-it" id="toc-what-can-we-do-with-it" class="nav-link" data-scroll-target="#what-can-we-do-with-it">What can we do with it?</a></li>
   </ul>
 </nav>
     </div>
@@ -144,14 +148,30 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="what-is-3-pg" class="level1">
-<h1>1.1 What is 3-PG?</h1>
+<section id="what-is-3-pg" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-3-pg">What is 3-PG?</h2>
+<p>3-PG (Physiological Principles Predicting Growth) is a process-based model designed to simulate forest growth and productivity. Developed by Landsberg and Waring in 1997, it represents a significant advancement in forest modeling by bridging the gap between conventional empirical models and complex process-based models. 3-PG is a generic stand model that runs on a monthly time step using climate data, and can be parameterized for individual species. 3-PG consists of five submodules: assimilation of carbohydrates, the distribution of biomass between foliage, roots and stems, the determination of stem number, soil water balance, and conversion of biomass into variables of interest to forest managers.</p>
+<p>Key features of 3-PG include:</p>
+<ul>
+<li><p>Simplicity: 3-PG uses a small number of parameters that are readily available or easily estimated.</p></li>
+<li><p>Monthly time-step: Allows for detailed analysis of seasonal variations in growth.</p></li>
+<li><p>Generality: Can be applied to a wide range of forest types and management regimes.</p></li>
+<li><p>Physiological basis: Incorporates key physiological processes governing tree growth.</p></li>
+</ul>
 </section>
-<section id="how-does-3-pg-work" class="level1">
-<h1>1.2 How does 3-PG Work?</h1>
+<section id="how-does-3-pg-work" class="level2">
+<h2 class="anchored" data-anchor-id="how-does-3-pg-work">How does 3-PG Work?</h2>
+<p>3-PG consists of five submodules: biomass production, biomass allocation, stem mortality, soil water balance, and stand management. Together, these submodules dictate how much stand can grow over a given period of time.</p>
+<ul>
+<li><p>Photosynthetically active radiation (APAR) absorbed by the canopy is determined from total solar radiation, and canopy LAI. Environmental modifiers, based on atmospheric vapour pressure deficit, available soil water, mean air temperature, frost days per month, site nutrition, and stand age are then taken into account, limiting the total gross primary production that can occur. Net primary production (NPP) is a constant fraction of GPP (47%).</p></li>
+<li><p>Allocation of NPP (biomass) to stems and foliage varies by growing conditions, and depends on average tree size; allocation to foliage declines and that to stems increases as stands age. Allocation of NPP to roots depends on growing conditions (expressed by available soil water, vapour pressure deficit, and site nutrition). The proportion of NPP allocated to roots increases when nutritional status and/or available soil water are low.</p></li>
+<li><p>An upper limit of stem number is calculated based on the single-tree stem mass of a current stem population. If the current stem mass is greater than the upper limit, the stem population is reduced to a level consistent with this limit.</p></li>
+<li><p>Finally, stand characteristics that are of interest to scientists and forests managers such as biomass, stem volume, basal area, and mean stem diameter can be calculated for the entire duration of stand growth.</p></li>
+</ul>
 </section>
-<section id="what-can-we-do-with-it" class="level1">
-<h1>1.3 What can we do with it?</h1>
+<section id="what-can-we-do-with-it" class="level2">
+<h2 class="anchored" data-anchor-id="what-can-we-do-with-it">What can we do with it?</h2>
+<p>3-PG has a wide range of applications in forestry and environmental science. 3-PG can be used to:</p>
 
 
 </section>

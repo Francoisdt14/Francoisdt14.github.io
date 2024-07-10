@@ -2,6 +2,14 @@
 title: "Input Datasets"
 ---
 
+3-PG requires climatic data, data describing the physical properties of the site, and a species specific parameter file.
+
+### Climate Data
+
+### Site Characteristics
+
+### Species Parameters
+
 About this site
 
 ```{r}

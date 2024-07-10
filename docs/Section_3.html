@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>3-PG User Guide</title>
+<title>3-PG User Guide - The C++ Executable</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -70,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -88,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -100,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Input Datasets</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Section_3.html"> 
+    <a class="nav-link active" href="./Section_3.html" aria-current="page"> 
 <span class="menu-text">The C++ Executable</span></a>
   </li>  
 </ul>
@@ -114,60 +115,38 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
 <!-- main -->
-<div class="quarto-about-trestles content">
-  <div class="about-entity">
-    <img src="media/3PG_Logo.png" class="about-image
-  rectangle " style="width: 20em;">
+<main class="content" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">3-PG User Guide</h1>
+<h1 class="title">The C++ Executable</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<section id="welcome" class="level1">
-<h1>Welcome!</h1>
-<p>Here is the landing page for the 3-PG User Guide.</p>
-<p>This website includes the following sections:</p>
-<section id="background" class="level3">
-<h3 data-anchor-id="background">Background</h3>
-<ul>
-<li><p>What is 3-PG?</p></li>
-<li><p>How does 3-PG Work?</p></li>
-<li><p>What can we do with it?</p></li>
-</ul>
-</section>
-<section id="input-datasets" class="level3">
-<h3 data-anchor-id="input-datasets">Input Datasets</h3>
-<ul>
-<li>What do we need for 3-PG to work</li>
-</ul>
-</section>
-<section id="the-c-executable" class="level3">
-<h3 data-anchor-id="the-c-executable">The C++ Executable</h3>
-<ul>
-<li>A step-by-step guide</li>
-</ul>
-</section>
-<section id="case-studies" class="level3">
-<h3 data-anchor-id="case-studies">Case Studies</h3>
-</section>
-<section id="other-implementations-of-3-pg" class="level3">
-<h3 data-anchor-id="other-implementations-of-3-pg">Other Implementations of 3-PG</h3>
-</section>
-<section id="additional-resources" class="level3">
-<h3 data-anchor-id="additional-resources">Additional Resources</h3>
 
 
-</section>
-</section>
-</main></div>
-</div>
- <!-- /main -->
+<p>Step-by-step user guide for forest simulation with the C++ executable</p>
+<p>System requirements?</p>
+<p>Installation process?</p>
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -188,6 +167,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
