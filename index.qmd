@@ -3,7 +3,7 @@ title: "Francois du Toit"
 image: media/me.jpg
 toc: false
 about: 
-  template: trestles
+  template: solana
   image-shape: round
   image-width: 20em
   links:
@@ -13,16 +13,16 @@ about:
 
 ## Welcome
 
-Landing site
+This website summarizes some of the work I have been over the last few years.
 
 ### Education
 
-**PhD**
+**PhD** (2022) \| University of British Columbia
 
-**MGEM**
+**MGEM** (2018) \| University of British Columbia
 
-**BSc**
+**BSc** (2014) \| University of British Columbia
 
 ### Experience
 
-**Postdoctoral Research Fellow**
+**Postdoctoral Research Fellow** (2022 - Present) \| Integrated Remote Sensing Studio
