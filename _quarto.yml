@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "3-PG User Guide"
+  title: "Francois du Toit"
   navbar:
     left:
       - href: index.qmd
