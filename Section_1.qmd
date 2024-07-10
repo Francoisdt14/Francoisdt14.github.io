@@ -1,33 +1,5 @@
 ---
-title: "3-PG Background"
+title: "About"
 ---
 
-## What is 3-PG?
-
-3-PG (Physiological Principles Predicting Growth) is a process-based model designed to simulate forest growth and productivity. Developed by Landsberg and Waring in 1997, it represents a significant advancement in forest modeling by bridging the gap between conventional empirical models and complex process-based models. 3-PG is a generic stand model that runs on a monthly time step using climate data, and can be parameterized for individual species. 3-PG consists of five submodules: assimilation of carbohydrates, the distribution of biomass between foliage, roots and stems, the determination of stem number, soil water balance, and conversion of biomass into variables of interest to forest managers.
-
-Key features of 3-PG include:
-
--   Simplicity: 3-PG uses a small number of parameters that are readily available or easily estimated.
-
--   Monthly time-step: Allows for detailed analysis of seasonal variations in growth.
-
--   Generality: Can be applied to a wide range of forest types and management regimes.
-
--   Physiological basis: Incorporates key physiological processes governing tree growth.
-
-## How does 3-PG Work?
-
-3-PG consists of five submodules: biomass production, biomass allocation, stem mortality, soil water balance, and stand management. Together, these submodules dictate how much stand can grow over a given period of time.
-
--   Photosynthetically active radiation (APAR) absorbed by the canopy is determined from total solar radiation, and canopy LAI. Environmental modifiers, based on atmospheric vapour pressure deficit, available soil water, mean air temperature, frost days per month, site nutrition, and stand age are then taken into account, limiting the total gross primary production that can occur. Net primary production (NPP) is a constant fraction of GPP (47%).
-
--   Allocation of NPP (biomass) to stems and foliage varies by growing conditions, and depends on average tree size; allocation to foliage declines and that to stems increases as stands age. Allocation of NPP to roots depends on growing conditions (expressed by available soil water, vapour pressure deficit, and site nutrition). The proportion of NPP allocated to roots increases when nutritional status and/or available soil water are low.
-
--   An upper limit of stem number is calculated based on the single-tree stem mass of a current stem population. If the current stem mass is greater than the upper limit, the stem population is reduced to a level consistent with this limit.
-
--   Finally, stand characteristics that are of interest to scientists and forests managers such as biomass, stem volume, basal area, and mean stem diameter can be calculated for the entire duration of stand growth.
-
-## What can we do with it?
-
-3-PG has a wide range of applications in forestry and environmental science. 3-PG can be used to:
+## About Me

@@ -1,40 +1,28 @@
 ---
-title: "3-PG User Guide"
-image: media/3PG_Logo.png
+title: "Francois du Toit"
+image: media/me.jpg
 toc: false
 about: 
-  template: solana
-  image-shape: rectangle
+  template: trestles
+  image-shape: round
   image-width: 20em
-  #links:
-   # - text: 3-PG Forest Growth Model
-    #  href: https://3pg.forestry.ubc.ca/
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/francoisdt14/
 ---
 
-# Welcome!
+## Welcome
 
-Here is the landing page for the 3-PG User Guide.
+Landing site
 
-This website includes the following sections:
+### Education
 
-### Background
+**PhD**
 
--   What is 3-PG?
+**MGEM**
 
--   How does 3-PG Work?
+**BSc**
 
--   What can we do with it?
+### Experience
 
-### Input Datasets
-
--   What do we need for 3-PG to work
-
-### The C++ Executable
-
--   A step-by-step guide
-
-### Case Studies
-
-### Other Implementations of 3-PG
-
-### Additional Resources
+**Postdoctoral Research Fellow**

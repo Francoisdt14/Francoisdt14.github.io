@@ -1,17 +1,7 @@
 ---
-title: "Input Datasets"
+title: "Projects"
 ---
 
-3-PG requires climatic data, data describing the physical properties of the site, and a species specific parameter file.
+PhD Project
 
-### Climate Data
-
-### Site Characteristics
-
-### Species Parameters
-
-About this site
-
-```{r}
-1 + 1
-```
+Postdoc
