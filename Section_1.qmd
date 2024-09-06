@@ -2,8 +2,6 @@
 title: "About Me"
 ---
 
-1
+As a PhD student, I used remote sensing data to model various aspects of tree and forest function, and developed a strong understanding of forest ecosystems. I was responsible for all aspects of the research process, including: planning field work, processing and analysing LiDAR datasets, communicating my research through contributions to peer-reviewed publications, and presenting at international conferences. Through this experience, I developed a strong foundation in remote sensing, ecosystem processes, data science and project management.
 
-2
-
-3
+My postdoctoral research focuses on optimising carbon sequestration in the boreal using process- based models. The project involves simulating forest growth under different climate scenarios and evaluating the effectiveness of different natural climate solutions. Through this, I have gained a solid understanding of climate change science, statistics, and carbon modelling. As part of my research, I am familiar with the IPCC Good Practice Guidance for Land Use, Land-Use Change and Forestry, as well as nature-based carbon offsetting methodologies.
